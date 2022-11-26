@@ -40,6 +40,7 @@ void insertAtN(Node* head, int data, int position){
 
     while(cnt < position-1){
         temp = temp->next;
+        cnt++;
     }
 
     n->next = temp->next;
